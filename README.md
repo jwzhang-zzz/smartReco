@@ -50,3 +50,15 @@ cd smartReco_static_analysis/code
 python smartReco.py -t 0xf1859145906b08c66fb99e167a1406ac00a2079e --etherscan-key xxx # You need to provide at least one etherscan key or the analysis may be terminated due to network issues or limitations imposed by Etherscan.
 ```
 And the result will generate in `record_data\verify\0xf1859145906b08c66fb99e167a1406ac00a2079e` folder
+
+## Citation
+If you use **SmartReco** or data in this repository in your research, please cite the following paper:
+BibTeX:
+```bibtex
+@inproceedings{smartreco,
+  title={SmartReco: Detecting Read-Only Reentrancy via Fine-Grained Cross-DApp Analysis},
+  author={Zhang, Jingwen and Zheng, Zibin and Nan, Yuhong and Ye, Mingxi and Ning, Kaiwen and Zhang, Yu and Zhang, Weizhe},
+  booktitle={Proceedings of the IEEE/ACM 47th International Conference on Software Engineering},
+  pages={1--12},
+  year={2025}
+}
