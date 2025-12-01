@@ -53,7 +53,6 @@ And the result will generate in `record_data\verify\0xf1859145906b08c66fb99e167a
 
 ## Citation
 If you use **SmartReco** or data in this repository in your research, please cite the following paper:
-BibTeX:
 ```bibtex
 @inproceedings{smartreco,
   title={SmartReco: Detecting Read-Only Reentrancy via Fine-Grained Cross-DApp Analysis},
